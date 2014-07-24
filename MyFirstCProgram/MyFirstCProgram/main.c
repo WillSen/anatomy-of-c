@@ -34,7 +34,11 @@ int main()
     int foo = 20;
     int barr = 15;
     int output = funky_math(foo, barr);
-    printf("%d", output);
+    printf("%d \n", output);
+    
+    float numbers[] = {11.11, 22.22, 33.33};
+    
+    printf("length of numbers array is %ld \n", sizeof(numbers)/sizeof(float));
     
     return 0;
 }
@@ -42,3 +46,4 @@ int main()
 int funky_math (int a, int b){
     return a + b + 242;
 };
+
