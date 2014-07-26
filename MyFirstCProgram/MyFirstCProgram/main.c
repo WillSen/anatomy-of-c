@@ -40,6 +40,12 @@ int main()
     
     printf("length of numbers array is %ld \n", sizeof(numbers)/sizeof(float));
     
+    int array[] = {3,4,5};
+    
+    int *pointer;
+    pointer = &array[0];
+    
+    
     return 0;
 }
 
