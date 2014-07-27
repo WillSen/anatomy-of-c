@@ -44,7 +44,9 @@ int main()
     
     int *pointer;
     pointer = &array[0];
-    
+    printf("Address is %d. Value at that address is %d \n", pointer, *pointer);
+    pointer++;
+    printf("Address is %d. Value at that address is %d \n", pointer, *pointer);
     
     return 0;
 }
